@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border-radius: 10px;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 25px;
+}
+

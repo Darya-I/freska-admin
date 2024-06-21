@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h1 class="display-5">Администратор,</h1>
+    <h2 class="display-6"> добро пожаловать! </h2>
+    
+    <div>
+    <p style="text-align:center">Действия с базой данных</p>
+    <table style="margin: 0 auto;">
+        
+        <tr>
+            <td>
+                <a class="nav-item text-dark" asp-area="" asp-controller="Genders" asp-action="Index">Пол</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="nav-item text-dark" asp-area="" asp-controller="Categories" asp-action="Index">Категории</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="nav-item text-dark" asp-area="" asp-controller="Subcategories" asp-action="Index">Подкатегории</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="nav-item text-dark" asp-area="" asp-controller="ClothesSizes" asp-action="Index">Размер</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="nav-item text-dark" asp-area="" asp-controller="Images" asp-action="Index">Фотографии</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="nav-item text-dark text-decoration-underline" asp-area="" asp-controller="Items" asp-action="Index">Товары</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="nav-item text-dark" asp-area="" asp-controller="ItemsSizes" asp-action="Index">Размер-одежда</a>
+            </td>
+        </tr>
+
+    </table>
+    </div>
+</div>
+</>
